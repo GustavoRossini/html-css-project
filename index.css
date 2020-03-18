@@ -1,12 +1,13 @@
 #site-wrapper 
 
 {position: absolute;
-top: 50px;
+top: 25px;
 left: 50px;
 right: 50px ;
+;
 }
 
-#site-header {text-align: center ;}
+#site-header {text-align: center;}
 
 #header-title {}
 #header-descripton {}
@@ -16,16 +17,27 @@ right: 50px ;
 #second-article {text-align: center;}
 #third-article {text-align: left;}
 
-.article-title {}
-.article-descripton {}
+.article-title {border: solid 2px red;
+    padding: 0px 15px 0px 15px;
+
+}
+
+.article-descripton {line-height: 10px;}
 
 body {}
 article {}
-footer {text-align: center;}
+footer 
 
+{
+    text-align: center;
+    color: white;
+    background-color: red;
+   
+    font-size: 1.25em;}
 a {}
 
-h1 {}
+h1 {background-color: black;
+color: red;}
 h2 {}
-p {}
+p {font-size: 1.25em;}
 
