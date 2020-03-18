@@ -1,18 +1,27 @@
-#site-wrapper {}
-#site-header {}
+#site-wrapper 
+
+{position: absolute;
+top: 50px;
+left: 50px;
+right: 50px ;
+}
+
+#site-header {text-align: center ;}
+
 #header-title {}
 #header-descripton {}
+
 #site-articles {}
-#first-article {}
-#second-article {}
-#third-article {}
+#first-article {text-align: right;}
+#second-article {text-align: center;}
+#third-article {text-align: left;}
 
 .article-title {}
 .article-descripton {}
 
 body {}
 article {}
-footer {}
+footer {text-align: center;}
 
 a {}
 
