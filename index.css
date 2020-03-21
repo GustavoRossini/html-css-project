@@ -1,27 +1,16 @@
 #site-wrapper 
 
-{position: absolute;
-top: 25px;
-left: 50px;
-right: 50px;
-
+{
 
 
 display: flex;
 flex-direction: column;
-
-
+box-sizing: border-box;
 
 }
 
-div #site-header 
 
-{display: flex; 
-flex-direction: row; 
-justify-content: space-between;
-}
-
-div #header-title 
+div #site-header-title 
 
 {
 display: flex;
@@ -32,12 +21,27 @@ padding: 0px 20px 0px 20px;
 background-color: black;
 color: red;}
 
-div #header-descripton 
 
+#articles-about-descripton
 
 {
 display: flex;
-align-self: ;
+flex-direction: row;
+justify-content: space-around;
+align-items: baseline;
+
+}
+
+
+#about-descripton 
+
+
+{
+    
+display: flex;
+
+align-self: center ;
+    
 max-width: 250px;
 }
 
@@ -48,7 +52,7 @@ div #site-articles
 
 {
 max-width: 850px; 
-margin: 10px;
+margin: 0px;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 }
@@ -62,9 +66,16 @@ grid-template-columns: 1fr 1fr 1fr;
 #sixth-article {margin: 10px;text-align: center;}
 
 .article-title {border: solid 2px red;
-    padding: 0px 15px 0px 15px;
+    padding: 0px 20px 0px 20px;
 
 }
+
+.about-title 
+
+{margin: 10px;text-align: center;
+background-color: red; color: black;
+    padding: 1px 10px 1px 10px;}
+    
 
 .article-descripton {line-height: 10px;}
 
@@ -77,6 +88,7 @@ footer
     text-align: center;
     color: white;
     background-color: red;
+    margin: 20px 20px 20px 20px;
    
     font-size: 1.25em;
     width: 100%;
@@ -85,6 +97,6 @@ a {}
 
 h1 {background-color: black;
 color: red;}
-h2 {}
-p {font-size: 1.25em;}
+h3 {}
+p {text-align: center; font-size: 1.25em;}
 
