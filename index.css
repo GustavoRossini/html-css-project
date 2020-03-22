@@ -1,11 +1,8 @@
 #site-wrapper 
 
 {
-
-
 display: flex;
 flex-direction: column;
-box-sizing: border-box;
 
 }
 
@@ -15,11 +12,15 @@ div #site-header-title
 {
 display: flex;
 align-self: flex-start;
-width: 850px;
+width:850px;
+max-width: 90%;
+
 margin: 20px;
 padding: 0px 20px 0px 20px;
+
 background-color: black;
-color: red;}
+color: red;
+}
 
 
 #articles-about-descripton
@@ -27,32 +28,40 @@ color: red;}
 {
 display: flex;
 flex-direction: row;
-justify-content: space-around;
-align-items: baseline;
+justify-content: flex-start;
+flex-wrap: wrap;
+
+width: 80%;
+
+margin: 20px;
+padding: 0px 20px 0px 20px;
 
 }
+
+
+#site-about-descripton 
+
+
+{
+display: flex;
+flex-direction: column;
+align-self: center ;
+max-width: 250px;
+margin-left: 20px;
+border: solid 2px black;
+}
+
 
 
 #about-descripton 
 
+{margin: 10px;text-align: center;}
 
-{
-    
-display: flex;
-
-align-self: center ;
-    
-max-width: 250px;
-}
-
-
-
-
-div #site-articles 
+#site-articles 
 
 {
 max-width: 850px; 
-margin: 0px;
+margin-right: 20px;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 }
@@ -91,7 +100,8 @@ footer
     margin: 20px 20px 20px 20px;
    
     font-size: 1.25em;
-    width: 100%;
+    max-width: 1200px;
+   
 
 a {}
 
